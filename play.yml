@@ -4,7 +4,7 @@
   gather_facts: no
   tasks:
   - name: "Execute command!"
-    command: whoami
+    command: apt-get update
     register: who
   - name: "Result"
     debug:
